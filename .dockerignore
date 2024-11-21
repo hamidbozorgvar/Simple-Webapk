@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder
+envflask/
+
+# Ignore result images
+result/
+
+# Ignore local git files
+.git
+.gitignore
+
+# Ignore Dockerfile (optional, if it’s not needed in the container)
+Dockerfile
+
+# Ignore other files or folders if not needed
+*.log
